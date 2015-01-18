@@ -5,7 +5,9 @@
 Ce script est pour simplifier la vie de certain. Rien de trèès exeptionel, il va juste lancer votre Makefile et votre binaire avec les arguments que vous lui passer.
 
 Le point pratique c'est que le script ne lancera pas votre binaire s'il y a une erreur dans le makefile ou autre en regardant la sortie d'erreur du shell.
+
 Un detail qui me tue toujours est que après un "make", tout les .o sont la juste pour faire tache (c'est personnel). Quand vous faite "vim mai" puis TAB, il vous sort "main." alors qu'on veut clairement ouvrir main.c. C'est pourquoi le script lance un "make clean" par derrière.
+
 Le seul point négatif, c'est que le nom de votre dossier de travail doit être le même que ce lui du binaire générer. Exemple, le script lancera "./fdf" si votre dossier s'appel "fdf". 
 ![Test](http://nsa34.casimages.com/img/2015/01/18/150118121608128168.png "Exemple")
 
