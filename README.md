@@ -15,6 +15,6 @@ Relancez votre shell pour que l'alias prenne effet.
 
 Il suffit juste de faire "compil argv1 argv2 ..." a la racine du projet ou vous êtes.
 
-
+###-> Espère pouvoir mettre plein d'autre truk cool :)
 
 
