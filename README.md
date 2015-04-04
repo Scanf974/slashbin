@@ -23,11 +23,11 @@ Il suffit juste de faire "compil argv1 argv2 ..." a la racine du projet ou vous 
 Créer un nouveau projet C. Il crée un dossier, copier la libft, les includes nécessaires, cree un .h du meme nom que le dossier créer, crée un Makefile puis un main.c.  
 Essentiel dans .vimrc
 <blockquote>
-autocmd bufnewfile *.h so ~/.vim/templates/header_h.txt
-autocmd bufnewfile *.h exe "0," . 3 . "g/ndef/s//ndef " .toupper(expand("%:r")).expand("_H")
-autocmd bufnewfile *.h exe "0," . 3 . "g/define/s//define " .toupper(expand("%:r")).expand("_H")
-autocmd bufnewfile *.h exe "0," . 5 . "g/libft/s//libft"
-autocmd bufnewfile *.make so ~/.vim/templates/header_make.txt
+autocmd bufnewfile *.h so ~/.vim/templates/header_h.txt<br/>
+autocmd bufnewfile *.h exe "0," . 3 . "g/ndef/s//ndef " .toupper(expand("%:r")).expand("_H")<br/>
+autocmd bufnewfile *.h exe "0," . 3 . "g/define/s//define " .toupper(expand("%:r")).expand("_H")<br/>
+autocmd bufnewfile *.h exe "0," . 5 . "g/libft/s//libft"<br/>
+autocmd bufnewfile *.make so ~/.vim/templates/header_make.txt<br/>
 </blockquote>
 
 Rajoutez dans .zshrc 'function create() {$HOME/bin/create $* && cd $*}' pour être automatiquement dans le dossier.
