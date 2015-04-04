@@ -13,7 +13,7 @@ echo ""
 echo -e "\t⇪ ${esp}0;30;47mCompilation de ${PWD##*/}${end}⇪ \n"
 echo ""
 
-make re
+make
 if [ $? == 0 ]
 then
 	echo -e "${c_fine}Makefiles OK${end}"
